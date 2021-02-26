@@ -1,6 +1,8 @@
 export default {
   buildModules: [
-    'nuxt-vite'
+    'nuxt-vite',
   ],
-  vitePlugins: [],
+  plugins: [
+    '~/plugins/main.js',
+  ],
 }

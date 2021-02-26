@@ -1,11 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt-ts dev",
     "postinstall": "patch-package"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.4.3",
+    "@nuxt/types": "^2.15.2",
+    "@nuxt/typescript-build": "^2.0.6",
+    "@nuxt/typescript-runtime": "^2.0.2",
     "eslint": "^7.20.0",
     "nuxt": "^2.15.2",
     "nuxt-vite": "^0.0.3",

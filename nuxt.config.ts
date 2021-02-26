@@ -2,6 +2,7 @@ import { resolve } from 'path'
 import { NuxtConfig } from '@nuxt/types'
 import ViteComponents from 'vite-plugin-components'
 import WindiCSS from 'vite-plugin-windicss'
+import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config: NuxtConfig = {
   buildModules: [
@@ -16,6 +17,11 @@ const config: NuxtConfig = {
         dirs: [
           resolve('./components'),
         ],
+        customComponentResolvers: [
+          ViteIconsResolver({
+            componentPrefix: '',
+          }),
+        ],
         transformer: 'vue2',
       }),
       WindiCSS({
@@ -25,6 +31,9 @@ const config: NuxtConfig = {
             resolve('./components'),
           ],
         },
+      }),
+      ViteIcons({
+        compiler: 'vue2',
       }),
     ],
   },

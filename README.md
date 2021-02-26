@@ -16,6 +16,7 @@
 
 - [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - Windi CSS support
+- [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) - icons as Vue components
 - Will add more... Contribution welcome!
 
 ### Nuxt

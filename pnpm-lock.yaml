@@ -1,5 +1,6 @@
 devDependencies:
   '@antfu/eslint-config': 0.4.3_eslint@7.20.0+typescript@4.2.2
+  '@iconify/json': 1.1.309
   '@nuxt/types': 2.15.2
   '@nuxt/typescript-build': 2.0.6_@nuxt+types@2.15.2
   '@nuxt/typescript-runtime': 2.0.2_@nuxt+types@2.15.2
@@ -9,6 +10,7 @@ devDependencies:
   patch-package: 6.2.2
   typescript: 4.2.2
   vite-plugin-components: 0.7.3
+  vite-plugin-icons: 0.3.0_@iconify+json@1.1.309
   vite-plugin-windicss: 0.5.3
 lockfileVersion: 5.2
 packages:
@@ -1081,6 +1083,14 @@ packages:
       node: ^10.12.0 || >=12.0.0
     resolution:
       integrity: sha512-1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==
+  /@iconify/json-tools/1.0.10:
+    dev: true
+    resolution:
+      integrity: sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
+  /@iconify/json/1.1.309:
+    dev: true
+    resolution:
+      integrity: sha512-L9556ireR0vOEcrIc54AJpwhts+T4YKArkB5NkxQCMk5b4Rc9+DviglggXByaR2ryqyRZT1/cv1AD/xJtQBQ6g==
   /@knightly/fast-glob/3.2.5-knightly-master.202101180131:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
@@ -10182,6 +10192,18 @@ packages:
       vite: ^2.0.0-beta.69
     resolution:
       integrity: sha512-OomlwTsyZn8M1xhth7gUxOE2FJZ1v/wn/TQhcJiFCxcsFnxvRiCMleRHzFrJUdRcN0QiM3lTCX3sKRthdOd+9w==
+  /vite-plugin-icons/0.3.0_@iconify+json@1.1.309:
+    dependencies:
+      '@iconify/json': 1.1.309
+      '@iconify/json-tools': 1.0.10
+      vue-template-es2015-compiler: 1.9.1
+    dev: true
+    peerDependencies:
+      '@iconify/json': '*'
+      '@vue/compiler-sfc': ^3.0.2
+      vue-template-compiler: ^2.6.12
+    resolution:
+      integrity: sha512-qDJAM7w4wUL3Zb3jLGygv8FfU5D/7WxfVl0alARKd/AIhol1zOIdEa69m10JiC4ibPkpWKwjDK7G16w+MNaNhw==
   /vite-plugin-vue2/1.2.1_vite@2.0.3:
     dependencies:
       '@babel/core': 7.13.1
@@ -10617,6 +10639,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@antfu/eslint-config': ^0.4.3
+  '@iconify/json': ^1.1.309
   '@nuxt/types': ^2.15.2
   '@nuxt/typescript-build': ^2.0.6
   '@nuxt/typescript-runtime': ^2.0.2
@@ -10626,4 +10649,5 @@ specifiers:
   patch-package: ^6.2.2
   typescript: ^4.2.2
   vite-plugin-components: ^0.7.3
+  vite-plugin-icons: ^0.3.0
   vite-plugin-windicss: ^0.5.3

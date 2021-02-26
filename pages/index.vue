@@ -6,6 +6,10 @@
       Nuxt + Vitesse
     </h1>
     <Hello />
+    <div class="text-3xl m-3">
+      <mdi-nuxt />
+      <carbon-campsite />
+    </div>
   </main>
 </template>
 

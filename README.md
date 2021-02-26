@@ -10,6 +10,10 @@
 🧪 Note: This is an experimental package and might be deprecated
 ```
 
+## How?
+
+For now we use [`patch-package`](https://github.com/ds300/patch-package) to patch [`nuxt-vite`](https://github.com/nuxt/vite) for supporting `vite.config.ts`. When [**this PR**](https://github.com/nuxt/vite/pull/19) gets merged, the patch will no longer needed.
+
 ## What is working?
 
 ### Vite Plugins

@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11247099/109278332-6100e780-7853-11eb-9632-ce0b870017e0.png"/>
+<img src="https://user-images.githubusercontent.com/11247099/109278332-6100e780-7853-11eb-9632-ce0b870017e0.png" width="500"/>
 </p>
 
 # Vitesse for Nuxt 2

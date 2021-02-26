@@ -1,0 +1,42 @@
+diff --git a/node_modules/nuxt-vite/dist/nuxt-vite.js-vite.js b/node_modules/nuxt-vite/dist/nuxt-vite.js-vite.js
+index c2e2de7..4357baf 100644
+--- a/node_modules/nuxt-vite/dist/nuxt-vite.js-vite.js
++++ b/node_modules/nuxt-vite/dist/nuxt-vite.js-vite.js
+@@ -302,7 +302,7 @@ async function buildServer(ctx) {
+     }
+   }
+   const serverDist = require$$1.resolve(ctx.nuxt.options.buildDir, "dist/server");
+-  await fsExtra.mkdirp(serverDist);
++  await fsExtra.ensureDir(serverDist);
+   await fsExtra.writeFile(require$$1.resolve(serverDist, "index.ssr.html"), APP_TEMPLATE);
+   await fsExtra.writeFile(require$$1.resolve(serverDist, "index.spa.html"), APP_TEMPLATE);
+   await fsExtra.writeFile(require$$1.resolve(serverDist, "client.manifest.json"), JSON.stringify({
+@@ -322,6 +322,19 @@ async function buildServer(ctx) {
+     },
+     maps: {}
+   }, null, 2));
++
++  const copyFiles = [
++    'vite.config.js',
++    'vite.config.ts'
++  ]
++
++  for (const file of copyFiles) {
++    if (fsExtra.existsSync(file)) {
++      await fsExtra.copyFile(file, require$$1.resolve(ctx.nuxt.options.buildDir, file))
++    }
++  }
++
++
+   const onBuild = async () => {
+     await ctx.nuxt.callHook("build:resources", wpfs);
+   };
+@@ -374,7 +387,7 @@ async function bundle(nuxt, builder) {
+       }
+     }
+   };
+-  await fsExtra.mkdirp(require$$1.resolve(nuxt.options.buildDir, ".vite/temp"));
++  await fsExtra.ensureDir(require$$1.resolve(nuxt.options.buildDir, ".vite/temp"));
+   const callBuild = async (fn, name) => {
+     try {
+       const start = Date.now();

@@ -6,12 +6,12 @@ devDependencies:
   '@nuxt/typescript-runtime': 2.0.2_@nuxt+types@2.15.2
   eslint: 7.20.0
   nuxt: 2.15.2_typescript@4.2.2
-  nuxt-vite: 0.0.4
+  nuxt-vite: 0.0.5
   patch-package: 6.2.2
   typescript: 4.2.2
   vite-plugin-components: 0.7.3
   vite-plugin-icons: 0.3.0_@iconify+json@1.1.309
-  vite-plugin-windicss: 0.5.3
+  vite-plugin-windicss: 0.5.4
 lockfileVersion: 5.2
 packages:
   /@antfu/eslint-config-basic/0.4.3_eslint@7.20.0:
@@ -2161,7 +2161,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-2J0nE95rHXHyQ24cWjMKJ1tqB/ds8z/cyeOZxJhcb+rW+SQASVjuznUSmdz5GpVJTzU8JkhYut0D3siFDD6wsA==
-  /@windicss/plugin-utils/0.5.3:
+  /@windicss/plugin-utils/0.5.4:
     dependencies:
       esbuild: 0.8.52
       esbuild-register: 2.0.0_esbuild@0.8.52
@@ -2170,7 +2170,7 @@ packages:
       windicss: 2.2.0
     dev: true
     resolution:
-      integrity: sha512-BXNvMSRmi1TyM8j3EnF/li9HViJPN4EPeGKTiIDWemxrfkRNlgN+Gmv31CFtZwnjiAlXRO58B6LIqVTSVYaTfQ==
+      integrity: sha512-zxpHdTsVZl7TF8A3uAymJCqMRlG83dMRAXf//fXonluoLDSJCuGBJyxN3NdkAyNZZR1L1DvoUUtkZLYOba+ElQ==
   /@xtuc/ieee754/1.2.0:
     dev: true
     resolution:
@@ -6979,15 +6979,16 @@ packages:
     dev: true
     resolution:
       integrity: sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
-  /nuxt-vite/0.0.4:
+  /nuxt-vite/0.0.5:
     dependencies:
       chokidar: 3.5.1
       fs-extra: 9.1.0
+      upath: 2.0.1
       vite: 2.0.3
       vite-plugin-vue2: 1.2.1_vite@2.0.3
     dev: true
     resolution:
-      integrity: sha512-wfMbmWNgfPJQ1iucMGeSfy2lXT7mFu2qWFX3H5VHPtLKSPIkhvd1WodPu6cK6MSXOiPP02PCCRcaTVKfC/gmvQ==
+      integrity: sha512-uHGfWPB0vjeKleevlX1eJnTrryELpjAkbqTGroal1fjhTNwZ3wp9IKYMl+21jakC/F4/aQtEKJ/arWpEV0QPRw==
   /nuxt/2.15.2_typescript@4.2.2:
     dependencies:
       '@nuxt/babel-preset-app': 2.15.2
@@ -10230,15 +10231,15 @@ packages:
       vite: ^2.0.0-beta.23
     resolution:
       integrity: sha512-j8p8O7kVXB8dvSr/sqHnmOFIi2EJWIxJ1b7VqF+5XNOX8OwRkZbgUKs2Q8UK5qgsmdd7LfJmD5ytfSqieYhKDg==
-  /vite-plugin-windicss/0.5.3:
+  /vite-plugin-windicss/0.5.4:
     dependencies:
-      '@windicss/plugin-utils': 0.5.3
+      '@windicss/plugin-utils': 0.5.4
       windicss: 2.2.0
     dev: true
     peerDependencies:
       vite: ^2.0.1
     resolution:
-      integrity: sha512-hVfj0QjgxBch4j5M6BfMj9Dsm7iKioP9uQUvs00RGkuUdG+Gc0PQcT9SuLrcZJjUE/2Tp9+J44BEbOYxjesqlA==
+      integrity: sha512-iPLoqfpZdnRIY1AzweumpdE8ILQQnyhywZwJDqFpj8SZ3h43e5tfQFnJb5nS6FLccOsBcCV9JFugD2w6pGyfqg==
   /vite/2.0.3:
     dependencies:
       esbuild: 0.8.52
@@ -10645,9 +10646,9 @@ specifiers:
   '@nuxt/typescript-runtime': ^2.0.2
   eslint: ^7.20.0
   nuxt: ^2.15.2
-  nuxt-vite: ^0.0.4
+  nuxt-vite: ^0.0.5
   patch-package: ^6.2.2
   typescript: ^4.2.2
   vite-plugin-components: ^0.7.3
   vite-plugin-icons: ^0.3.0
-  vite-plugin-windicss: ^0.5.3
+  vite-plugin-windicss: ^0.5.4

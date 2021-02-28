@@ -14,6 +14,9 @@ const config: NuxtConfig = {
     '~/plugins/main.ts',
   ],
   vite: {
+    vue: {
+      include: [/\.vue$/, /\.md$/],
+    },
     plugins: [
       ViteComponents({
         dirs: [
@@ -26,7 +29,6 @@ const config: NuxtConfig = {
             componentPrefix: '',
           }),
         ],
-        transformer: 'vue2',
       }),
       WindiCSS({
         scan: {
@@ -36,9 +38,7 @@ const config: NuxtConfig = {
           ],
         },
       }),
-      ViteIcons({
-        compiler: 'vue2',
-      }),
+      ViteIcons(),
       Markdown({
         markdownItSetup(md) {
           md.use(Prism)

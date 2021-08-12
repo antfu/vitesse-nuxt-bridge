@@ -1,12 +1,12 @@
 import { resolve } from 'path'
 import { NuxtConfig } from '@nuxt/types'
 import ViteComponents from 'vite-plugin-components'
-import WindiCSS from 'vite-plugin-windicss'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config: NuxtConfig = {
   buildModules: [
     'nuxt-vite',
+    'nuxt-windicss',
   ],
   plugins: [
     '~/plugins/main.ts',
@@ -22,14 +22,6 @@ const config: NuxtConfig = {
             componentPrefix: '',
           }),
         ],
-      }),
-      WindiCSS({
-        scan: {
-          dirs: [
-            resolve('./pages'),
-            resolve('./components'),
-          ],
-        },
       }),
       ViteIcons(),
     ],

@@ -6,7 +6,6 @@
       Nuxt <span class="text-gray-400">+</span> <span class="text-purple-600">Vitesse</span>
     </h1>
     <Hello />
-    <Markdown class="text-left inline-block text-sm" />
     <div class="text-2xl m-3 text-gray-500">
       <carbon-campsite />
       <DarkToggle />

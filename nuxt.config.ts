@@ -5,7 +5,7 @@ import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config: NuxtConfig = {
   buildModules: [
-    'nuxt-vite',
+    resolve(__dirname, '../nuxt-vite/src/index.ts'),
     'nuxt-windicss',
   ],
   plugins: [

@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <button class="!outline-none" @click="toggleDark">
+  <button class="!outline-none" @click="toggleDark()">
     <carbon-moon v-if="isDark" />
     <carbon-sun v-else />
   </button>

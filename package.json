@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build"
+    "build": "nuxt build --no-generate --modern=client",
+    "start": "nuxt start --modern=client"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",

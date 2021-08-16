@@ -6,6 +6,7 @@
       Nuxt <span class="text-gray-400">+</span> <span class="text-purple-600">Vitesse</span>
     </h1>
     <Hello />
+    <Counter />
     <div class="text-2xl m-3 text-gray-500">
       <carbon-campsite />
       <DarkToggle />

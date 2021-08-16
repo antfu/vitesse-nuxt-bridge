@@ -11,6 +11,9 @@ const config: NuxtConfig = {
   plugins: [
     '~/plugins/main.ts',
   ],
+  css: [
+    '~/styles/main.css',
+  ],
   vite: {
     plugins: [
       ViteComponents({

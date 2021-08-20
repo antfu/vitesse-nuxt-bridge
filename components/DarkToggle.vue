@@ -1,5 +1,7 @@
 <script lang='ts'>
-export default {
+import { defineComponent } from '@nuxtjs/composition-api'
+
+export default defineComponent({
   data() {
     return {
       isDark: false,
@@ -12,7 +14,7 @@ export default {
         document.documentElement.classList.toggle('dark', this.isDark)
     },
   },
-}
+})
 </script>
 
 <template>

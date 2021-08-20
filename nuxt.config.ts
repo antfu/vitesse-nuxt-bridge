@@ -5,6 +5,7 @@ import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config: NuxtConfig = {
   buildModules: [
+    '@nuxtjs/composition-api/module',
     resolve(__dirname, '../nuxt-vite/src/index.ts'),
     'nuxt-windicss',
   ],
@@ -15,6 +16,8 @@ const config: NuxtConfig = {
     '~/styles/main.css',
   ],
   vite: {
+    build: true,
+    // ssr: true,
     plugins: [
       ViteComponents({
         dirs: [

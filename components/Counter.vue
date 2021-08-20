@@ -18,11 +18,11 @@ export default {
 
 <template>
   <div>
-    <button class="!outline-none" @click="dec()">
+    <button class="border px-2 rounded mx-2 hover:bg-gray-100 !outline-none" @click="dec()">
       dec
     </button>
     <span>{{ count }}</span>
-    <button class="!outline-none" @click="inc()">
+    <button class="border px-2 rounded mx-2 hover:bg-gray-100 !outline-none" @click="inc()">
       inc
     </button>
   </div>

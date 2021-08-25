@@ -23,5 +23,5 @@
 
 - [x] Dev Server
 - [x] HMR
-- [ ] Build (await `nuxt-vite`)
+- [x] Build
 - [ ] Generate (await `nuxt-vite`)

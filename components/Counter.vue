@@ -20,12 +20,12 @@ export default defineComponent({
 </script>
 
 <template>
-  <div>
-    <button class="border px-2 rounded mx-2 hover:bg-gray-100 !outline-none" @click="dec()">
+  <div m="y-3">
+    <button border="~ rounded gray-400" class="px-2 mx-2 hover:bg-gray-400/20 !outline-none" @click="dec()">
       dec
     </button>
     <span>{{ count }}</span>
-    <button class="border px-2 rounded mx-2 hover:bg-gray-100 !outline-none" @click="inc()">
+    <button border="~ rounded gray-400" class="px-2 mx-2 hover:bg-gray-400/20 !outline-none" @click="inc()">
       inc
     </button>
   </div>

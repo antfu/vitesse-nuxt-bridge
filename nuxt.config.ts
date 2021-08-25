@@ -5,8 +5,8 @@ import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config: NuxtConfig = {
   buildModules: [
+    'nuxt-vite',
     '@nuxtjs/composition-api/module',
-    resolve(__dirname, '../nuxt-vite/src/index.ts'),
     'nuxt-windicss',
   ],
   plugins: [
@@ -28,6 +28,7 @@ const config: NuxtConfig = {
             componentPrefix: '',
           }),
         ],
+        globalComponentsDeclaration: true,
       }),
       ViteIcons(),
     ],

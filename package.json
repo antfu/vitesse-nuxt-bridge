@@ -7,19 +7,18 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",
-    "@iconify/json": "^1.1.386",
+    "@iconify/json": "^1.1.393",
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/composition-api": "^0.27.0",
+    "@vue/runtime-dom": "^3.2.6",
     "eslint": "^7.32.0",
     "nuxt": "^2.15.8",
-    "nuxt-vite": "^0.2.0",
-    "nuxt-windicss": "^1.2.2",
+    "nuxt-vite": "^0.2.1",
+    "nuxt-windicss": "^1.2.3",
     "typescript": "^4.3.5",
+    "unplugin-auto-import": "^0.1.5",
+    "unplugin-vue2-script-setup": "^0.4.2",
     "vite-plugin-components": "^0.13.2",
-    "vite-plugin-icons": "^0.6.5",
-    "caniuse-lite": "^1.0.30001251"
-  },
-  "eslintConfig": {
-    "extends": "@antfu"
+    "vite-plugin-icons": "^0.6.5"
   }
 }

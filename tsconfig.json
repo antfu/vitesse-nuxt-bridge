@@ -3,6 +3,9 @@
     "module": "esnext",
     "target": "es2017",
     "esModuleInterop": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "types": [
+      "unplugin-vue2-script-setup/types"
+    ]
   }
 }

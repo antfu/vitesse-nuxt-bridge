@@ -1,20 +1,11 @@
-<script lang='ts'>
-import { defineComponent } from '@nuxtjs/composition-api'
+<script setup lang='ts'>
+const isDark = ref(false)
 
-export default defineComponent({
-  data() {
-    return {
-      isDark: false,
-    }
-  },
-  methods: {
-    toggleDark() {
-      this.isDark = !this.isDark
-      if (typeof window !== 'undefined')
-        document.documentElement.classList.toggle('dark', this.isDark)
-    },
-  },
-})
+function toggleDark() {
+  this.isDark = !this.isDark
+  if (typeof window !== 'undefined')
+    document.documentElement.classList.toggle('dark', this.isDark)
+}
 </script>
 
 <template>

@@ -8,6 +8,8 @@ const config: NuxtConfig = {
     'nuxt-vite',
     '@nuxtjs/composition-api/module',
     'nuxt-windicss',
+    'unplugin-vue2-script-setup/nuxt',
+    ['unplugin-auto-import/nuxt', { imports: ['@nuxtjs/composition-api'] }],
   ],
   plugins: [
     '~/plugins/main.ts',

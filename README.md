@@ -51,3 +51,7 @@
 - [x] HMR
 - [x] Build
 - [ ] Generate (await `nuxt-vite`)
+
+## IDE Integration
+
+We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https://github.com/johnsoncodehk/volar) to get the best experience (You might want to disable Vetur if you have it).

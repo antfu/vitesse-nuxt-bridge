@@ -1,11 +1,6 @@
 <script setup lang='ts'>
-const isDark = ref(false)
-
-function toggleDark() {
-  this.isDark = !this.isDark
-  if (typeof window !== 'undefined')
-    document.documentElement.classList.toggle('dark', this.isDark)
-}
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
 </script>
 
 <template>

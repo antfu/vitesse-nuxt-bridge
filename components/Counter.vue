@@ -1,5 +1,6 @@
 <script setup lang='ts'>
 const count = ref(Math.round(Math.random() * 20))
+
 function inc() {
   this.count += 1
 }

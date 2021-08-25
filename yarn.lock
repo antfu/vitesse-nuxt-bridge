@@ -2280,6 +2280,21 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.6.tgz#2c22bae88fe2b7b59fa68a9c9c4cd60bae2c1794"
   integrity sha512-uwX0Qs2e6kdF+WmxwuxJxOnKs/wEkMArtYpHSm7W+VY/23Tl8syMRyjnzEeXrNCAP0/8HZxEGkHJsjPEDNRuHw==
 
+"@vueuse/core@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.0.0.tgz#ebb6ad380682adc6c7d6c3be4f3e4003543845fd"
+  integrity sha512-PuBfNo/Zv+NkLcZaYWBA1WjqxQhTDC0DMQpoAIJdo/GFul/1SpBbONhUho2zqtOmq8vyGuK200wNFvyA4YUAMg==
+  dependencies:
+    "@vueuse/shared" "6.0.0"
+    vue-demi "*"
+
+"@vueuse/shared@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.0.0.tgz#e6b8804541a1853615db3dd869d07653b244451f"
+  integrity sha512-PLjjqL8bxI5q86qk/ifXy572nfQE3rJc1RMem+dKcGayaagMnC4kXHEt64V98DVielSwr2FuYaeFodi4KJrvdg==
+  dependencies:
+    vue-demi "*"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -10207,10 +10222,10 @@ unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-auto-import@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.1.5.tgz#ab270b48834bfa9da2d12fe45826c3304f8e6844"
-  integrity sha512-Rb7fuoUb5VWNrcwu7KOJ0v89OQ/aqVx00+t7mRq66V0ua82Ht93udY63u6xYpHuBRMtEo5dzl7qHwN6gKdQkJQ==
+unplugin-auto-import@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.1.6.tgz#20a03a703d44ecef083eba9b7392dcd31c483cf8"
+  integrity sha512-kFS2fB30uNBfY/ak+uRba63PUUHxa3x404a/W68BWT0zb0WGSYasI67eg0NpVJrHtIAN3/GklUFZX4OkQcjLbQ==
   dependencies:
     "@antfu/utils" "^0.2.4"
     "@rollup/pluginutils" "^4.1.1"
@@ -10452,6 +10467,11 @@ vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
+
+vue-demi@*:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.3.tgz#dd7495b92b495ecfa35675bf024b1358a7add150"
+  integrity sha512-DpM0TTMpclRZDV6AIacgg837zrim/C9Zn+2ztXBs9hsESJN9vC83ztjTe4KC4HgJuVle8YUjPp7HTwWtwOHfmg==
 
 vue-eslint-parser@^7.6.0:
   version "7.10.0"

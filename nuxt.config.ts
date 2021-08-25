@@ -9,7 +9,16 @@ const config: NuxtConfig = {
     '@nuxtjs/composition-api/module',
     'nuxt-windicss',
     'unplugin-vue2-script-setup/nuxt',
-    ['unplugin-auto-import/nuxt', { imports: ['@nuxtjs/composition-api'] }],
+    [
+      'unplugin-auto-import/nuxt',
+      {
+        imports: [
+          '@vueuse/core',
+          '@nuxtjs/composition-api',
+        ],
+        presetOverriding: true,
+      },
+    ],
   ],
   plugins: [
     '~/plugins/main.ts',

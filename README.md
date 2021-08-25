@@ -30,13 +30,14 @@
 
 ## Plugins
 
-### Nuxt Plugins
+### Vue Plugins
+
+- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+
+### Nuxt Modules
 
 - [`nuxt-vite`](https://github.com/nuxt/vite) - Vite for Nuxt 2
 - [`nuxt-windicss`](https://github.com/windicss/nuxt-windicss-module) - Windi CSS integration
-
-### Unplugin
-
 - [unplugin-vue2-script-setup](https://github.com/antfu/unplugin-vue2-script-setup) - `<script setup>` support for Vue 2
 - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Use Vue Composition API without importing
 

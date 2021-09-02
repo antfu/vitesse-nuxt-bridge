@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 import { NuxtConfig } from '@nuxt/types'
-import ViteComponents from 'vite-plugin-components'
-import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
+import ViteComponents from 'unplugin-vue-components/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 
 const config: NuxtConfig = {
   buildModules: [
@@ -9,6 +9,7 @@ const config: NuxtConfig = {
     '@nuxtjs/composition-api/module',
     'nuxt-windicss',
     'unplugin-vue2-script-setup/nuxt',
+    'unplugin-icons/nuxt',
     [
       'unplugin-auto-import/nuxt',
       {
@@ -34,14 +35,13 @@ const config: NuxtConfig = {
         dirs: [
           resolve('./components'),
         ],
-        customComponentResolvers: [
-          ViteIconsResolver({
+        resolvers: [
+          IconsResolver({
             componentPrefix: '',
           }),
         ],
-        globalComponentsDeclaration: true,
+        dts: true,
       }),
-      ViteIcons(),
     ],
   },
 }

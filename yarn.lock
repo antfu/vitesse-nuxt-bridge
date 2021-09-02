@@ -10267,6 +10267,29 @@ unplugin-auto-import@^0.4.0:
     magic-string "^0.25.7"
     unplugin "^0.2.7"
 
+unplugin-icons@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.7.5.tgz#4bc8055d4f96a6b3a21368ff09cc4320db999dfd"
+  integrity sha512-5IY6hpmKdAPUHyJU3u9bzFw2gOGK1hBW+TSNHt8CuhrdM1wgBZRCgfum9OjDuRgM4nDZiECrsHwGeJvBIvnJVw==
+  dependencies:
+    "@iconify/json-tools" "^1.0.10"
+    has-pkg "^0.0.1"
+    unplugin "^0.2.3"
+
+unplugin-vue-components@^0.14.11:
+  version "0.14.11"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.14.11.tgz#aef2c0480316e864450cb3e0b7f63e8f10695027"
+  integrity sha512-ulgt/waXWynt1QOik19YPO76nicB3u8RFWjiU3y4Gv9tx32bBYc9bsrkm+SfOBDxQPtdYc/yo5KQ3gSVKYdAow==
+  dependencies:
+    "@rollup/pluginutils" "^4.1.1"
+    debug "^4.3.2"
+    fast-glob "^3.2.7"
+    has-pkg "^0.0.1"
+    magic-string "^0.25.7"
+    minimatch "^3.0.4"
+    resolve "^1.20.0"
+    unplugin "^0.2.7"
+
 unplugin-vue2-script-setup@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/unplugin-vue2-script-setup/-/unplugin-vue2-script-setup-0.5.6.tgz#c411f83a5f2607153b3998721ad55e8e691ce16f"
@@ -10284,7 +10307,7 @@ unplugin-vue2-script-setup@^0.5.6:
     magic-string "^0.25.7"
     unplugin "^0.2.7"
 
-unplugin@^0.2.7:
+unplugin@^0.2.3, unplugin@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.7.tgz#40072145287943abbc552185ee7df1525932133d"
   integrity sha512-KcMTl+aF+UhNOUvUdxwxHiOhvIoFe++foE2GgblFmXsnjdRYYggd2Tg7wopljCnOyiv5IspQRKfAvpyc4qtzuw==
@@ -10428,24 +10451,6 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
-
-vite-plugin-components@^0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-components/-/vite-plugin-components-0.13.3.tgz#8bda0f508ee90249a066ba63d5985798e5ca9fed"
-  integrity sha512-6vLWPrEqFSW7REYvux/WVwxsytg/DcstVhdgAT806cZi/KGiQgB8dyFnLkrkFawxUQruuGkLWfS99Z/64mMC0w==
-  dependencies:
-    debug "^4.3.2"
-    fast-glob "^3.2.7"
-    magic-string "^0.25.7"
-    minimatch "^3.0.4"
-
-vite-plugin-icons@^0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/vite-plugin-icons/-/vite-plugin-icons-0.6.5.tgz#3f6bd08358bb126344e46ed08dc76808ce1f1887"
-  integrity sha512-lfePr8juO2ajp0571iLL+9zIoyBD9nSSSHlC4JYXbAeMOJB6WTP+Vdc2gze8yI8JRO+Z0TXCCvvL9bPgvkI4Cg==
-  dependencies:
-    "@iconify/json-tools" "^1.0.10"
-    vue-template-es2015-compiler "^1.9.1"
 
 vite-plugin-vue2@^1.8.1:
   version "1.8.1"

@@ -29,7 +29,7 @@ const config: NuxtConfig = {
   ],
   vite: {
     build: true,
-    // ssr: true,
+    ssr: true,
     plugins: [
       ViteComponents({
         dirs: [

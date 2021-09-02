@@ -1,7 +1,7 @@
 <template>
   <main class="py-40 px-20 text-center">
-    <img class="w-15 inline-block" src="../assets/nuxt.svg">
-    <img class="w-15 inline-block" src="../assets/vite.svg">
+    <img class="w-15 inline-block" src="/nuxt.svg">
+    <img class="w-15 inline-block" src="/vite.svg">
     <h1 class="mt-5 text-green-500 text-4xl cursor-default">
       <span class="hover:(text-white bg-green-600)">Nuxt</span>
       <span class="text-gray-400">+</span> <span class="text-purple-600">Vitesse</span>

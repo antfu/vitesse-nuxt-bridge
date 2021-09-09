@@ -29,7 +29,6 @@ const config: NuxtConfig = {
   ],
   vite: {
     build: true,
-    // @ts-expect-error
     ssr: true,
     experimentWarning: false,
     plugins: [

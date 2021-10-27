@@ -1,25 +1,30 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "build": "nuxt build",
+    "dev": "nuxt",
+    "build": "nuxt generate",
     "start": "nuxt start"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.8.1",
-    "@iconify/json": "^1.1.399",
+    "@antfu/eslint-config": "^0.10.0",
+    "@iconify/json": "^1.1.420",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27255393.245aa6b",
+    "@nuxt/kit-edge": "^3.0.0-27255393.245aa6b",
     "@nuxt/types": "^2.15.8",
-    "@nuxtjs/composition-api": "^0.29.0",
-    "@vue/runtime-dom": "^3.2.11",
-    "@vueuse/core": "^6.3.2",
-    "eslint": "^7.32.0",
-    "nuxt": "^2.15.8",
-    "nuxt-vite": "^0.2.4",
-    "nuxt-windicss": "^1.2.3",
-    "typescript": "^4.4.2",
-    "unplugin-auto-import": "^0.4.5",
-    "unplugin-icons": "^0.7.6",
-    "unplugin-vue-components": "^0.15.0"
+    "@nuxtjs/composition-api": "^0.29.3",
+    "@unocss/preset-icons": "^0.1.1",
+    "@vue/runtime-dom": "^3.2.20",
+    "@vueuse/core": "^6.7.3",
+    "eslint": "^8.1.0",
+    "nuxt-edge": "latest",
+    "nuxt-windicss": "^2.0.7",
+    "typescript": "^4.4.4",
+    "unocss": "^0.1.1",
+    "unplugin-icons": "^0.12.17"
+  },
+  "pnpm": {
+    "overrides": {
+      "vue-demi": "0.12.0"
+    }
   }
 }

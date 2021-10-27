@@ -3,5 +3,4 @@ node_modules
 *.log
 dist
 wp-dist
-auto-imports.d.ts
-components.d.ts
+.output

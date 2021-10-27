@@ -1,50 +1,30 @@
-import { resolve } from 'path'
-import { NuxtConfig } from '@nuxt/types'
-import ViteComponents from 'unplugin-vue-components/vite'
-import IconsResolver from 'unplugin-icons/resolver'
-import 'nuxt-vite'
+import { defineNuxtConfig } from '@nuxt/bridge'
+import UnoCSS from 'unocss/vite'
+import UnocssIcons from '@unocss/preset-icons'
 
-const config: NuxtConfig = {
+export default defineNuxtConfig({
   buildModules: [
-    'nuxt-vite',
-    '@nuxtjs/composition-api/module',
     'nuxt-windicss',
+    '@vueuse/core/nuxt',
     'unplugin-icons/nuxt',
-    [
-      'unplugin-auto-import/nuxt',
-      {
-        imports: [
-          '@vueuse/core',
-          '@nuxtjs/composition-api',
-        ],
-        presetOverriding: true,
-      },
-    ],
-  ],
-  plugins: [
-    '~/plugins/main.ts',
   ],
   css: [
     '~/styles/main.css',
   ],
+  target: 'static',
+  components: true,
+  bridge: {
+    nitro: true,
+    vite: true,
+  },
   vite: {
-    build: true,
-    ssr: true,
-    experimentWarning: false,
+    build: {},
     plugins: [
-      ViteComponents({
-        dirs: [
-          resolve('./components'),
+      UnoCSS({
+        presets: [
+          UnocssIcons(),
         ],
-        resolvers: [
-          IconsResolver({
-            componentPrefix: '',
-          }),
-        ],
-        dts: true,
       }),
     ],
   },
-}
-
-export default config
+})

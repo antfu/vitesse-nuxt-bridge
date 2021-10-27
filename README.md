@@ -12,46 +12,28 @@
 
 ## Features
 
-- ⚡️ Vite + 💚 Nuxt - Instant HMR + Nuxt Ecosystem
+- [💚 Nuxt Bridge](https://v3.nuxtjs.org/getting-started/bridge) - Experience Nuxt 3 features on existing Nuxt 2 projects.
 
-- 📦 Components auto importing
-<!-- 
-- 🍍 [State Management via Pinia](https://pinia.esm.dev/) -->
+- ⚡️ Vite - Instant HMR
 
 - 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
 
-- 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/vite-plugin-icons)
+- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
 
-- 🔥 Use the [new `<script setup>` syntax in Vue 2](https://github.com/antfu/unplugin-vue2-script-setup)
+- 🔥 Use the new `<script setup>` syntax in Vue 2
 
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+- 📥 APIs auto importing - use Composition API and others directly
 
 - 🦾 TypeScript, of course
 
 ## Plugins
 
-### Vue Plugins
-
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
-
 ### Nuxt Modules
 
-- [`nuxt-vite`](https://github.com/nuxt/vite) - Vite for Nuxt 2
+- [`@nuxt/bridge`](https://v3.nuxtjs.org/getting-started/bridge) - Experience Nuxt 3 features on existing Nuxt 2 projects.
 - [`nuxt-windicss`](https://github.com/windicss/nuxt-windicss-module) - Windi CSS integration
-- [unplugin-vue2-script-setup](https://github.com/antfu/unplugin-vue2-script-setup) - `<script setup>` support for Vue 2
-- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Use Vue Composition API without importing
-
-### Vite Plugins
-
-- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
-- [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) - icons as Vue components
-
-### Nuxt State
-
-- [x] Dev Server
-- [x] HMR
-- [x] Build
-- [ ] Generate (await `nuxt-vite`)
+- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [UnoCSS](https://github.com/antfu/unocss) - on-demand atomic CSS engine - powers pure CSS Icons!
 
 ## IDE Integration
 

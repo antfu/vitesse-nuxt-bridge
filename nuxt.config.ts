@@ -6,7 +6,6 @@ export default defineNuxtConfig({
   buildModules: [
     'nuxt-windicss',
     '@vueuse/core/nuxt',
-    'unplugin-icons/nuxt',
   ],
   css: [
     '~/styles/main.css',

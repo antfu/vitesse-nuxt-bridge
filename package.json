@@ -8,8 +8,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
     "@iconify/json": "^1.1.420",
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27255393.245aa6b",
-    "@nuxt/kit-edge": "^3.0.0-27255393.245aa6b",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
+    "@nuxt/kit-edge": "latest",
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/composition-api": "^0.29.3",
     "@unocss/preset-icons": "^0.1.1",
@@ -19,7 +19,7 @@
     "nuxt-edge": "latest",
     "nuxt-windicss": "^2.0.7",
     "typescript": "^4.4.4",
-    "unocss": "^0.1.1",
+    "unocss": "^0.1.3",
     "unplugin-icons": "^0.12.17"
   },
   "pnpm": {

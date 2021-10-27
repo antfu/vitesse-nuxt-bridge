@@ -10,7 +10,7 @@
     <Counter />
     <div class="text-2xl m-3 text-gray-500 flex justify-center gap-3">
       <a href="https://github.com/antfu/vitesse-nuxt" target="__blank">
-        <carbon-campsite />
+        <div class="i-carbon-campsite" />
       </a>
       <DarkToggle />
     </div>

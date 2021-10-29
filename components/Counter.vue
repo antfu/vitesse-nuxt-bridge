@@ -1,12 +1,5 @@
 <script setup lang='ts'>
-const count = ref(Math.round(Math.random() * 20))
-
-function inc() {
-  this.count += 1
-}
-function dec() {
-  this.count -= 1
-}
+const { count, inc, dec } = useCount()
 </script>
 
 <template>

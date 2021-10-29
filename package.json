@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
-    "start": "nuxt start"
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",

@@ -7,7 +7,7 @@ const { count, inc, dec } = useCount()
     <button border="~ rounded gray-400" class="px-2 mx-2 hover:bg-gray-400/20 !outline-none" @click="dec()">
       dec
     </button>
-    <span>{{ count }}</span>
+    <span font="mono">{{ count }}</span>
     <button border="~ rounded gray-400" class="px-2 mx-2 hover:bg-gray-400/20 !outline-none" @click="inc()">
       inc
     </button>

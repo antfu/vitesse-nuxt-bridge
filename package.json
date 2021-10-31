@@ -1,24 +1,24 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
+    "dev": "nuxi-edge dev",
     "build": "nuxt generate",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
     "@iconify/json": "^1.1.421",
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
     "@nuxt/bridge-edge": "latest",
     "@nuxt/kit-edge": "latest",
-    "@unocss/preset-icons": "^0.2.1",
+    "@unocss/preset-icons": "^0.4.4",
     "@vue/runtime-dom": "^3.2.20",
     "@vueuse/core": "^6.7.4",
     "eslint": "^8.1.0",
+    "nuxi-edge": "latest",
     "nuxt-edge": "latest",
     "nuxt-windicss": "^2.0.9",
     "typescript": "^4.4.4",
-    "unocss": "^0.2.1"
+    "unocss": "^0.4.4"
   },
   "pnpm": {
     "overrides": {

@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi-edge dev",
-    "build": "nuxt generate",
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {

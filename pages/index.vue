@@ -1,15 +1,15 @@
 <template>
-  <main class="py-40 px-20 text-center">
-    <img class="w-15 inline-block" src="/nuxt.svg">
-    <img class="w-15 inline-block" src="/vite.svg">
-    <h1 class="mt-5 text-green-500 text-4xl cursor-default">
-      <span class="hover:(text-white bg-green-600)">Nuxt</span>
-      <span class="text-gray-400">+</span> <span class="text-purple-600">Vitesse</span>
+  <main py-40 px-20 text-center>
+    <img w-16 inline-block src="/nuxt.svg" />
+    <img w-16 inline-block src="/vite.svg" />
+    <h1 mt-1 mb-3 text-2xl cursor-default>
+      <span text-green-500 hover:text-white hover:bg-green-600>Nuxt Bridge</span>
+      <span text-gray-400 mx-2>+</span>
+      <span text-purple-500>Vitesse</span>
     </h1>
-    <Hello />
     <Counter />
     <div class="text-2xl m-3 text-gray-500 flex justify-center gap-3">
-      <a href="https://github.com/antfu/vitesse-nuxt" target="__blank">
+      <a href="https://github.com/antfu/vitesse-nuxt-bridge" target="__blank">
         <div class="i-carbon-campsite" />
       </a>
       <DarkToggle />

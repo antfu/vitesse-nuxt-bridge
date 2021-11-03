@@ -2,13 +2,15 @@
 <img src="https://user-images.githubusercontent.com/11247099/109278332-6100e780-7853-11eb-9632-ce0b870017e0.png" width="500"/>
 </p>
 
-<h2 align="center">Vitesse for Nuxt 2</h2>
+<h2 align="center">Vitesse Nuxt Bridge</h2>
 
 <p align="center">
 <a href="https://github.com/antfu/vitesse">Vitesse</a> experience for Nuxt 2 and Vue 2.
 </p><br>
 
 > 🧪 Experimental
+
+[Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3)
 
 ## Features
 

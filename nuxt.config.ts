@@ -1,18 +1,15 @@
 import { defineNuxtConfig } from '@nuxt/bridge-edge'
-import UnoCSS from 'unocss/vite'
-import UnocssIcons from '@unocss/preset-icons'
+import { presetAttributify, presetUno, presetIcons } from 'unocss'
 
 export default defineNuxtConfig({
   buildModules: [
-    'nuxt-windicss',
+    '@unocss/nuxt',
     '@vueuse/core/nuxt',
     '@nuxt/bridge-edge',
   ],
   css: [
+    '@unocss/reset/tailwind.css',
     '~/styles/main.css',
-  ],
-  plugins: [
-    '~/plugins/uno.ts',
   ],
   target: 'static',
   components: true,
@@ -20,13 +17,15 @@ export default defineNuxtConfig({
     nitro: true,
     vite: true,
   },
-  vite: {
-    build: {},
-    plugins: [
-      UnoCSS({
-        presets: [
-          UnocssIcons(),
-        ],
+  unocss: {
+    shortcuts: [
+      ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
+    ],
+    presets: [
+      presetUno(),
+      presetAttributify(),
+      presetIcons({
+        scale: 1.2,
       }),
     ],
   },

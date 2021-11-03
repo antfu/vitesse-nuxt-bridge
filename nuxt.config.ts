@@ -29,4 +29,7 @@ export default defineNuxtConfig({
       }),
     ],
   },
+  vite: {
+    build: {},
+  },
 })

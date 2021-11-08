@@ -1,21 +1,19 @@
 <script setup lang="ts">
 const name = ref('')
-const vm = getCurrentInstance()
-
-const go = () => {
-  if (name.value)
-    vm?.proxy.$router.push(`/hi/${encodeURIComponent(name.value)}`)
-}
 </script>
 
 <template>
-  <div>
+  <form @submit.stop.prevent="$router.push(`/hi/${name}`)">
     <input
-      id="input"
-      v-model="name"
+      id="name"
+      v-model.trim="name"
       placeholder="What's your name?"
       type="text"
-      autocomplete="false"
+      autocomplete="off"
+      spellcheck="false"
+      minlength="1"
+      required="required"
+      autofocus="autofocus"
       p="x-4 y-2"
       m="t-5"
       w="250px"
@@ -23,16 +21,12 @@ const go = () => {
       bg="transparent"
       border="~ rounded gray-200 dark:gray-700"
       outline="none active:none"
-      @keydown.enter="go"
+    />
+    <button
+      type="submit"
+      class="block mx-auto my-3 text-sm btn"
     >
-    <div>
-      <button
-        class="m-3 text-sm btn"
-        :disabled="!name"
-        @click="go"
-      >
-        GO
-      </button>
-    </div>
-  </div>
+      GO
+    </button>
+  </form>
 </template>

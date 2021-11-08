@@ -14,7 +14,6 @@ export default defineNuxtConfig({
   target: 'static',
   components: true,
   bridge: {
-    nitro: true,
     vite: true,
   },
   unocss: {
@@ -28,8 +27,5 @@ export default defineNuxtConfig({
         scale: 1.2,
       }),
     ],
-  },
-  vite: {
-    build: {},
   },
 })

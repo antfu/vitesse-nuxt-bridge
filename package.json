@@ -7,18 +7,18 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
-    "@iconify/json": "^1.1.423",
+    "@iconify/json": "^1.1.424",
     "@nuxt/bridge-edge": "latest",
     "@nuxt/kit-edge": "latest",
-    "@unocss/nuxt": "^0.4.15",
-    "@unocss/preset-icons": "^0.4.15",
+    "@unocss/nuxt": "^0.6.5",
+    "@unocss/preset-icons": "^0.6.5",
     "@vue/runtime-dom": "^3.2.21",
-    "@vueuse/core": "^6.7.5",
-    "eslint": "^8.1.0",
+    "@vueuse/core": "^6.8.0",
+    "eslint": "^8.2.0",
     "nuxi-edge": "latest",
     "nuxt-edge": "latest",
     "typescript": "^4.4.4",
-    "unocss": "^0.4.15"
+    "unocss": "^0.6.5"
   },
   "pnpm": {
     "overrides": {

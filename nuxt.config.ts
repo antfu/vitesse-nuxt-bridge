@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from '@nuxt/bridge-edge'
-import Inspect from 'vite-plugin-inspect'
 
 export default defineNuxtConfig({
   buildModules: [
@@ -25,16 +24,5 @@ export default defineNuxtConfig({
     icons: {
       scale: 1.2,
     },
-  },
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        '@vueuse/core',
-        '@vueuse/shared',
-      ],
-    },
-    plugins: [
-      Inspect(),
-    ],
   },
 })

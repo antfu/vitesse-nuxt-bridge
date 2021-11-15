@@ -15,7 +15,6 @@ specifiers:
   nuxi-edge: latest
   nuxt-edge: latest
   typescript: ^4.4.4
-  vite-plugin-inspect: ^0.3.10
 
 devDependencies:
   '@antfu/eslint-config': 0.10.0_eslint@8.2.0+typescript@4.4.4
@@ -29,7 +28,6 @@ devDependencies:
   nuxi-edge: 3.0.0-27282980.f011a60
   nuxt-edge: 2.16.0-27282256.ab1c6cb4_typescript@4.4.4
   typescript: 4.4.4
-  vite-plugin-inspect: 0.3.10
 
 packages:
 
@@ -11526,18 +11524,6 @@ packages:
 
   /vendors/1.0.4:
     resolution: {integrity: sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==}
-    dev: true
-
-  /vite-plugin-inspect/0.3.10:
-    resolution: {integrity: sha512-4PDxPeiRd+szrepkHiogOCmiYy7fK15tZYpBq5vVXW24AooB5uk01HKMnFeKoZHPnB4nRNaoGPZFKTLndFosjQ==}
-    peerDependencies:
-      vite: ^2.0.0
-    dependencies:
-      debug: 4.3.2
-      sirv: 1.0.18
-      ufo: 0.7.9
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /vite-plugin-vue2/1.9.0_cd1846aafe4c35f31c699104ee2df148:

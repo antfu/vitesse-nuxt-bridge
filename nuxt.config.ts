@@ -1,5 +1,5 @@
 import { defineNuxtConfig } from '@nuxt/bridge-edge'
-import { presetAttributify, presetUno, presetIcons } from 'unocss'
+import Inspect from 'vite-plugin-inspect'
 
 export default defineNuxtConfig({
   buildModules: [
@@ -20,12 +20,21 @@ export default defineNuxtConfig({
     shortcuts: [
       ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
     ],
-    presets: [
-      presetUno(),
-      presetAttributify(),
-      presetIcons({
-        scale: 1.2,
-      }),
+    uno: true,
+    attributify: true,
+    icons: {
+      scale: 1.2,
+    },
+  },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        '@vueuse/core',
+        '@vueuse/shared',
+      ],
+    },
+    plugins: [
+      Inspect(),
     ],
   },
 })

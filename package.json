@@ -7,16 +7,16 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.10.0",
-    "@iconify/json": "^1.1.428",
+    "@iconify/json": "^1.1.431",
     "@nuxt/bridge-edge": "latest",
     "@nuxt/kit-edge": "latest",
-    "@unocss/nuxt": "^0.9.3",
+    "@unocss/nuxt": "^0.11.1",
     "@vue/runtime-dom": "^3.2.22",
     "@vueuse/core": "^6.9.1",
     "eslint": "^8.2.0",
     "nuxi-edge": "latest",
     "nuxt-edge": "latest",
-    "typescript": "^4.4.4"
+    "typescript": "4.4.4"
   },
   "pnpm": {
     "overrides": {

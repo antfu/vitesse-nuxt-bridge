@@ -18,9 +18,9 @@
 
 - ⚡️ Vite - Instant HMR
 
-- 🎨 [Windi CSS](https://github.com/windicss/windicss) - next generation utility-first CSS framework
+- 🎨 [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
 
-- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/antfu/unocss)
+- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/unocss/unocss)
 
 - 🔥 Use the new `<script setup>` syntax in Vue 2
 
@@ -33,7 +33,6 @@
 ### Nuxt Modules
 
 - [`@nuxt/bridge`](https://v3.nuxtjs.org/getting-started/bridge) - Experience Nuxt 3 features on existing Nuxt 2 projects.
-- [`nuxt-windicss`](https://github.com/windicss/nuxt-windicss-module) - Windi CSS integration
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [UnoCSS](https://github.com/antfu/unocss) - on-demand atomic CSS engine - powers pure CSS Icons!
 

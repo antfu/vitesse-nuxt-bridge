@@ -1,3 +1,7 @@
+Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.
+
+----
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11247099/109278332-6100e780-7853-11eb-9632-ce0b870017e0.png" width="500"/>
 </p>
@@ -8,9 +12,6 @@
 <a href="https://github.com/antfu/vitesse">Vitesse</a> experience for Nuxt 2 and Vue 2.
 </p><br>
 
-> 🧪 Experimental
-
-[Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3)
 
 ## Features
 
